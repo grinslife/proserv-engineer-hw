@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UtilityCo</title>
+</head>
+
+<body yahoofix="yahoofix" style="margin: 0">
+    <style type="text/css">
+        table.button:hover td {
+            background-color: #59c5e0 !important;
+        }
+        table.button:visited td {
+            background-color: #59c5e0 !important;
+        }
+        table.button:active td {
+            background-color: #59c5e0 !important;
+        }
+        table.button:hover td a {
+            border-color: #59c5e0 !important; color: #FFFFFF !important;
+        }
+        table.button:visited td a {
+            border-color: #59c5e0 !important;
+            color: #FFFFFF !important;
+        }
+        table.button:active td a {
+            border-color: #59c5e0 !important;
+            color: #FFFFFF !important;
+        }
+        table.button.secondary:hover td {
+            background-color: #ececec !important;
+        }
+        table.button.secondary:hover td a {
+            border-color: #ececec !important;
+            color: #666666 !important;
+        }
+
+        .paragraph a:hover {
+            color: inherit;
+        }
+        p a:hover {
+            color: inherit;
+        }
+        a:hover {
+            color: #36d7ff;
+        }
+        a.quiet:hover {
+            color: inherit;
+        }
+        a.important:hover {
+            color: #36d7ff;
+        }
+        aside p a:hover {
+            color: inherit;
+        }
+        .aside a:hover {
+            color: inherit;
+        }
+        table.button.send:hover td {
+            background-color: #b5da82 !important;
+        }
+        table.button.send:hover td a {
+            border-color: #b5da82 !important;
+        }
+        table.button.save:hover td {
+            background-color: #b5da82 !important;
+        }
+        table.button.save:hover td a {
+            border-color: #b5da82 !important;
+        }
+        table.button.accept:hover td {
+            background-color: #b5da82 !important;
+        }
+        table.button.accept:hover td a {
+            border-color: #b5da82 !important;
+        }
+        body {
+            margin: 0;
+        }
+        .welcome-message a:hover {
+            color: inherit;
+        }
+        .marketing-text a:hover {
+            color: inherit;
+        }
+        .marketing-phone a:hover {
+            color: inherit;
+        }
+        .marketing-aside a:hover {
+            color: inherit;
+        }
+        .footer .column-content a:hover {
+            color: inherit;
+        }
+        .appleLink a {
+            color: inherit;
+            text-decoration: inherit;
+            font-weight: inherit;
+        }
+    </style>
+
+    <table class="body" style="border-spacing: 0; height: 100%; min-width: 600px; padding: 0; width: 100%">
+        <tr>
+            <td class="center header-container" align="center" valign="top" style="padding: 0"><center>
+                <table class="utility-header" style="background: #FFFFFF; border-top-color: #00a6cf; border-top-style: solid; border-top-width: 8px; padding: 0px; position: relative; width: 100%" bgcolor="#FFFFFF">
+                    <tr>
+                        <td class="center" align="center"><center>
+                            <table class="container" style="margin: 0 auto; text-align: inherit; width: 580px">
+                                <tr>
+                                    <td class="wrapper-last" style="padding: 10px 0px 0px; position: relative">
+                                        <table class="twelve-columns" style="margin: 0 auto; width: 580px">
+                                            <tr>
+                                                <td class="column-content utility-logo" style="padding: 0; text-align: left" align="left">
+                                                    <img src="https://static.opower.com/images/clients/util/logo-new.png" width="100%">
+                                                </td>
+                                                <td class="expander" style="padding: 0; visibility: hidden; width: 0px"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="column-content account-number" style="color: #666666; font-family: Arial, sans-serif; font-size: 12px; margin: 0; padding: 0 0 20px; text-align: left" align="left">
+                                                  John Doe<br>
+                                                  1234567890
+                                                </td>
+                                                <td class="expander" style="padding: 0; visibility: hidden; width: 0px"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="line-seperator" style="border-top-color: #E1E1E1; border-top-style: solid; border-top-width: 1px; height: 10px"> </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="column-content welcome-heading" style="color: #1D1D1D; font-family: Arial, sans-serif; font-size: 34px; font-weight: normal; line-height: 1.2; margin: 0; padding: 0 0 10px; text-align: center" align="center">
+                                                    Get ready for hotter weather
+                                                </td>
+                                                <td class="expander" style="padding: 0; visibility: hidden; width: 0px"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="column-content welcome-message" align="center" style="color: #1D1D1D; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.4em; margin: 0; padding: 0 0 20px; text-align: center">
+                                                    Get a home energy audit and ensure your family's confort
+                                                </td>
+                                                <td class="expander" style="padding: 0; visibility: hidden; width: 0px"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </center></td>
+                    </tr>
+                </table>
+                <table class="row-alt" style="background: #F1F1F1; border-top-color: #E1E1E1; border-top-style: solid; border-top-width: 1px; padding: 0px; position: relative; width: 100%" bgcolor="#F1F1F1">
+                    <tr>
+                        <td class="center" align="center"><center>
+                            <table class="container" style="margin: 0 auto; text-align: inherit; width: 580px">
+                                <tr>
+                                    <td class="wrapper-last" style="padding: 10px 0px 0px; position: relative">
+                                        <table class="twelve-columns" style="margin: 0 auto; width: 580px">
+                                            <tr>
+                                                <td class="marketing-heading" align="center" style="color: #1D1D1D; font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; line-height: 1.4; padding-bottom: 5px; padding-top: 10px">
+                                                    Temperatures are rising
+                                                </td>
+                                                <td class="expander" style="padding: 0; visibility: hidden; width: 0px"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="marketing-text" align="center" style="color: #1D1D1D; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.4em; margin: 0; padding: 0; vertical-align: top" valign="top">
+                                                    Are you prepared for the hot summer?
+                                                </td>
+                                                <td class="expander" style="padding: 0; visibility: hidden; width: 0px"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="marketing-chart center" style="padding-bottom: 30px">
+                                                    <img src="https://static.opower.com/images/email/icons/cesc/cesc-summer-chart2x.png" width="570" style="border: 0px; display: block; max-width: 570px; width: 100%">
+                                                </td>
+                                                <td class="expander" style="padding: 0; visibility: hidden; width: 0px"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="marketing-aside" style="color: #666666; font-family: Arial, sans-serif; font-size: 12px; font-style: italic; line-height: 1.4; padding-bottom: 30px">
+                                                    “Feels like”, also known as the “heat index”, is the measure of how hot it really feels when relative humidity is factored along with actual temperature.
+                                                 </td>
+                                                <td class="expander" style="padding: 0; visibility: hidden; width: 0px"></td>
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </center></td>
+                    </tr>
+
+                </table>
+                <table class="row" style="background: #FFFFFF; border-top-color: #E1E1E1; border-top-style: solid; border-top-width: 1px; padding: 0px; position: relative; width: 100%" bgcolor="#FFFFFF">
+                    <tr>
+                        <td class="center" align="center"><center>
+                            <table class="container" style="margin: 0 auto; text-align: inherit; width: 580px">
+                                <tr>
+                                    <td class="wrapper-last" style="padding: 10px 0px 0px; position: relative">
+                                        <table class="twelve-columns" style="margin: 0 auto; width: 580px">
+                                            <tr>
+                                                <td class="marketing-hook" align="left">
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <table>
+                                                                    <tr>
+                                                                        <td class="marketing-heading" style="color: #1D1D1D; font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; line-height: 1.4; padding-bottom: 5px; padding-top: 10px">
+                                                                            Ensure your home is ready to stay cool and save money
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="marketing-text" style="color: #1D1D1D; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.4em; margin: 0; padding: 0; vertical-align: top" valign="top">
+                                                                            Register for your free home energy audit to save energy this summer season. Home energy audits are the most simple and effective way to ensure your home's energy performance is at its best.  Just have your Customer ID ready and click the button below to get started.
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td width="10">
+                                                                 
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td class="expander" style="padding: 0; visibility: hidden; width: 0px"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="marketing-cta center" align="center" style="padding-bottom: 20px; padding-top: 20px"><center style="min-width: 580px">
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <table class="button" style="border-collapse: collapse; border-spacing: 0; border: 0; padding: 0">
+                                                                    <tr>
+                                                                        <td style="background: #00a6cf; border-radius: 4px; text-align: center" align="center" bgcolor="#00a6cf">
+                                                                            <a href="https://www.oracle.com/index.html" style="-moz-transition: color 0.4s; -webkit-transition: color 0.4s; border-radius: 4px; border: 1px solid #00a6cf; color: #FFFFFF; display: inline-block; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; padding: 14px 40px; text-decoration: none; text-transform: uppercase; transition: color 0.4s">Register Online</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </center></td>
+                                                <td class="expander" style="padding: 0; visibility: hidden; width: 0px"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="marketing-text quiet center with-padding-small" align="center" style="color: #666666; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.4em; margin: 0; padding: 0 0 20px; vertical-align: top" valign="top"><center style="min-width: 580px">
+                                                    — or —
+                                                </center></td>
+                                                <td class="expander" style="padding: 0; visibility: hidden; width: 0px"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center marketing-end with-padding-end" align="center" style="padding-bottom: 30px"><center style="min-width: 580px">
+                                                    <table>
+                                                        <tr>
+                                                            <td class="marketing-text" valign="middle" style="color: #1D1D1D; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.4em; margin: 0; padding: 0; vertical-align: top">
+                                                                 Call <b>1-800-867-5309</b>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </center></td>
+                                                <td class="expander" style="padding: 0; visibility: hidden; width: 0px"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </center></td>
+                    </tr>
+                </table>
+                <table class="footer" style="background: #F1F1F1; border-top-color: #E1E1E1; border-top-style: solid; border-top-width: 1px; padding: 10px 0; position: relative; width: 100%" bgcolor="#F1F1F1">
+                    <tr>
+                        <td class="center" align="center"><center>
+                            <table class="container" style="margin: 0 auto; text-align: inherit; width: 580px">
+                                <tr>
+                                    <td class="wrapper-last" style="padding: 10px 0px 0px; position: relative">
+                                        <table class="twelve-columns" style="margin: 0 auto; width: 580px">
+                                            <tr>
+                                                <td class="column-content appleLink" style="color: #666666; font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; padding: 0px 0px 10px; text-align: center" align="center">
+                                                UtilityCo<br>
+                                                123 Main St.
+                                                Anytown, USA 12345
+                                                <br><br>
+                                                Copyright 2017 Oracle. All rights reserved.<br>
+                                                </td>
+                                                <td class="expander" style="padding: 0; visibility: hidden; width: 0px"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </center></td>
+                    </tr>
+                </table>
+            </center></td>
+        </tr>
+    </table>
+</body>
+
+</html>
